@@ -1,10 +1,11 @@
+#!/usr/bin/env python
 # Import libary functions we need
 import RPi.GPIO as GPIO
 import time
 import sys
 GPIO.setmode(GPIO.BCM)
 # Set which GPIO pins the drive outputs are connected to
-DRIVE_1 = 4
+DRIVE_1 = 13
 DRIVE_2 = 18
 # Set the GPIO pins of the ultrasonic sensor
 TRIG = 40
